@@ -13,7 +13,7 @@
 
 1. Create a new directory, navigate to that directory in a terminal and clone the GitHub repository:
     ```bash
-    git clone <url>
+    git clone https://github.com/aws-samples/react-formik-on-aws
     ```
 2. From the command line, use npm to install the development dependencies:
     ```bash
@@ -29,7 +29,11 @@
     ```bash
       npx esbuild resources/lambda/index.js --bundle --platform=node --target=node12 --external:aws-sdk --outfile=dist/lambda/build/index.js
     ```
-5. To deploy from the command line use the following:
+6. Configure CDK
+    ```bash
+      cdk bootstrap aws://<ACCOUNT_ID>/<ACCOUNT_REGION>
+    ```
+7. To deploy from the command line use the following:
     ```bash
       npx cdk deploy
     ```
