@@ -13,7 +13,7 @@
 
 1. Create a new directory, navigate to that directory in a terminal and clone the GitHub repository:
     ```bash
-    git clone https://github.com/aws-samples/react-formik-on-aws
+      git clone https://github.com/aws-samples/react-formik-on-aws
     ```
 2. From the command line, use npm to install the development dependencies:
     ```bash
