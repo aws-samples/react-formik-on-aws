@@ -1,0 +1,10 @@
+{
+  "prefix": "ReactFormik",
+  "description": "A Lambda to get S3 presigned URL requests from API Gateway API with CDK",
+  "api": {
+    "handler": "ProxyLambda",
+    "id": "storage-api",
+    "name": "Storage Service"
+  },
+  "tags": [{ "key": "Project", "value": "FormikExample" }]
+}

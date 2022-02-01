@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+   width: 100%; 
+   width: 100vw;
+}
+
+.App-header {
+  background-image: linear-gradient(to left, #0E0B0B, #A2A2A2);
+  min-height: 6vh;
+  display: flex;
+  flex-direction: row;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+.body{
+  border: #0E0B0B;
+  border-width: 10px;
+}
+.query-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  width: 100vw;
+}
+.dataField{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+.input{
+  margin-left:20px;
+  /* margin-top: 10px; */
+}
