@@ -40,8 +40,7 @@
 
 ## Testing
 
-1. After deployment, the output shows the API Gateway URL.
-1. Accessing the URL in a browser, ???
+1. After deployment, the output shows the API Gateway URL, open the link in the browser.
 
 ## Cleanup
  
